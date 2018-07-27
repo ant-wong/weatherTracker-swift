@@ -16,6 +16,7 @@
 		95F587B0210BC08F00C208EA /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F587AF210BC08F00C208EA /* APIClient.swift */; };
 		95F587B2210BC52B00C208EA /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F587B1210BC52B00C208EA /* Endpoints.swift */; };
 		95F587B5210BC8EB00C208EA /* WeatherAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F587B4210BC8EB00C208EA /* WeatherAPIClient.swift */; };
+		95F587B7210BD1FA00C208EA /* WeatherCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F587B6210BD1FA00C208EA /* WeatherCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		95F587AF210BC08F00C208EA /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		95F587B1210BC52B00C208EA /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
 		95F587B4210BC8EB00C208EA /* WeatherAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPIClient.swift; sourceTree = "<group>"; };
+		95F587B6210BD1FA00C208EA /* WeatherCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		95F587A9210A9C0A00C208EA /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				95F587B6210BD1FA00C208EA /* WeatherCellViewModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				95F587AB210A9C3600C208EA /* WeatherTableViewController.swift in Sources */,
 				95F587AE210BBA2200C208EA /* Weather.swift in Sources */,
 				95F58797210A9B2000C208EA /* AppDelegate.swift in Sources */,
+				95F587B7210BD1FA00C208EA /* WeatherCellViewModel.swift in Sources */,
 				95F587B0210BC08F00C208EA /* APIClient.swift in Sources */,
 				95F587B2210BC52B00C208EA /* Endpoints.swift in Sources */,
 			);

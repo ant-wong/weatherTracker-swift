@@ -20,5 +20,5 @@ struct Daily: Codable {
 struct ForecastDay: Codable {
     let time: Int
     let summary: String
-    let icon: String
+    let icon: URL /* Can change data type to URL as well if it is an image link */
 }
