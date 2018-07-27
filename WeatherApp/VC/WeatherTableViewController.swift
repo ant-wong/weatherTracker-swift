@@ -12,7 +12,16 @@ class WeatherTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let weatherApi = WeatherAPIClient()
+        let weatherEndpoint =  WeatherEndpoint.dailyForecast(Long: 49.2827, Lat: -123.1207)
+        weatherApi.weather(with: weatherEndpoint) { (either) in
+            switch either {
+            case .value(let daily):
+                print(daily)
+            case .error(let error):
+                print(error)
+            }
+        }
     }
 
     // MARK: - Table view data source
